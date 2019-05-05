@@ -1,5 +1,5 @@
-% °´Å¥µÄÊ¹ÓÃ
-h0=figure('toolbar','none','position',[200 150 450 250],'name','ÊµÀý34');
+% æŒ‰é’®çš„ä½¿ç”¨
+h0=figure('toolbar','none','position',[200 150 450 250],'name','å®žä¾‹32');
 x=0:0.5:2*pi;
 y=sin(x);
 plot(x,y)
@@ -23,5 +23,5 @@ h_toggle2=uicontrol(gcf,'style','togglebutton',...
     'position',[20 20 50 20],...
     'callback',huidiao2);
 set(gca,'position',[0.2 0.2 0.6 0.6])
-title('¿ª¹Ø°´Å¥µÄÊ¹ÓÃ')
-saveas(h0,'32_¿ª¹Ø°´Å¥µÄÊ¹ÓÃ.png')
+title('å¼€å…³æŒ‰é’®çš„ä½¿ç”¨')
+saveas(h0,'32_å¼€å…³æŒ‰é’®çš„ä½¿ç”¨.png')
