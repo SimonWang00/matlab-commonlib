@@ -1,5 +1,5 @@
-% ÏÂÀ­²Ëµ¥µÄÊ¹ÓÃ
-h0=figure('toolbar','none','position',[200 150 450 250],'name','ÊµÀı36');
+% ä¸‹æ‹‰èœå•çš„ä½¿ç”¨
+h0=figure('toolbar','none','position',[200 150 450 250],'name','å®ä¾‹33');
 x=0:0.5:2*pi;
 y=sin(x);
 h=plot(x,y);
@@ -35,6 +35,6 @@ huidiao=[...
         'end'];
 set(hm,'callback',huidiao)
 set(gca,'position',[0.2 0.2 0.6 0.6])
-title('µ¯³öÊ½²Ëµ¥µÄÊ¹ÓÃ')
+title('å¼¹å‡ºå¼èœå•çš„ä½¿ç”¨')
 hold on
-saveas(h0,'33_ÏÂÀ­²Ëµ¥µÄÊ¹ÓÃ.png')
+saveas(h0,'33_ä¸‹æ‹‰èœå•çš„ä½¿ç”¨.png')
